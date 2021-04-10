@@ -1,0 +1,266 @@
+# Vietnamese translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-03-25 15:23+0700\n"
+"PO-Revision-Date: 2019-10-18 15:13-0600\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: vi\n"
+"Language-Team: vi <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: app/__init__.py:20
+msgid "Please log in to access this page."
+msgstr "Xin đăng nhập để truy cập trang này."
+
+#: app/email.py:22
+#, fuzzy
+msgid "[Microblog] Reset Your Password"
+msgstr "[Myblog] Phục hồi mật mã"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:51
+msgid "Username"
+msgstr "Tên tài khoản"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:43
+msgid "Password"
+msgstr "Mật mã"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Ghi nhớ thông tin tài khoản"
+
+#: app/forms.py:14 app/routes.py:81 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Đăng nhập"
+
+#: app/forms.py:19 app/forms.py:38
+msgid "Email"
+msgstr "Địa chỉ email"
+
+#: app/forms.py:22 app/forms.py:45
+msgid "Repeat Password"
+msgstr "Nhập lại mật mã"
+
+#: app/forms.py:24 app/routes.py:102 app/templates/register.html:5
+msgid "Register"
+msgstr "Đăng ký"
+
+#: app/forms.py:29 app/forms.py:64
+msgid "Please use a different username."
+msgstr "Xin vui lòng sử dụng tài khoản khác"
+
+#: app/forms.py:34
+msgid "Please use a different email address."
+msgstr "Xin vui lòng sử dụng địa chỉ email khác"
+
+#: app/forms.py:39 app/forms.py:47
+msgid "Request Password Reset"
+msgstr "Yêu cầu phục hồi mật mã"
+
+#: app/forms.py:52
+msgid "About me"
+msgstr "Về tôi"
+
+#: app/forms.py:54 app/forms.py:73
+msgid "Submit"
+msgstr "Gởi dữ liệu"
+
+#: app/forms.py:72
+msgid "Say something"
+msgstr "Nói"
+
+#: app/routes.py:37
+msgid "Your post is now live!"
+msgstr "Bài của bạn đã được đăng!"
+
+#: app/routes.py:46 app/templates/base.html:21
+msgid "Home"
+msgstr "Trang chủ"
+
+#: app/routes.py:61 app/templates/base.html:22
+msgid "Explore"
+msgstr "Khám phá"
+
+#: app/routes.py:74
+msgid "Invalid username or password"
+msgstr "Tên tài khoản hoặc mật mã không hợp lệ"
+
+#: app/routes.py:100
+msgid "Congratulations, you are now a registered user!"
+msgstr "Xin chúng mừng, bạn đã đăng ký thành công!"
+
+#: app/routes.py:115
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+"Kiểm tra email của bạn và làm theo các hướng dẫn trong đó để phục hồi mật"
+" mã"
+
+#: app/routes.py:118 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Phục hồi mật mã"
+
+#: app/routes.py:132
+msgid "Your password has been reset."
+msgstr "Mật mã của bạn đã được phục hồi"
+
+#: app/routes.py:161
+msgid "Your changes have been saved."
+msgstr "Thông tin đã được cập nhật."
+
+#: app/routes.py:166 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Soạn thảo hồ sơ cá nhân"
+
+#: app/routes.py:177 app/routes.py:197
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Không tìm thấy thành viên %(username)s."
+
+#: app/routes.py:180
+msgid "You cannot follow yourself!"
+msgstr "Bạn không thể theo dõi chính mình!"
+
+#: app/routes.py:184
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Bạn đang theo dõi %(username)s!"
+
+#: app/routes.py:200
+msgid "You cannot unfollow yourself!"
+msgstr "Bạn không thể ngừng theo dõi chính mình!"
+
+#: app/routes.py:204
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Bạn không còn theo dõi %(username)s."
+
+#: app/translate.py:10
+msgid "Error: the translation service is not configured."
+msgstr "Lỗi: Cấu hình cho dịch vụ phiên dịch chưa được thiết lập"
+
+#: app/translate.py:20
+msgid "Error: the translation service failed."
+msgstr "Lỗi: Có lỗi trong quá trình phiên dịch"
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Trở về"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Chương trình có lỗi"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+"Sự cố đã được thông báo cho quản trị viên. Xin lỗi vì đã gây khó khăn cho"
+" bạn."
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s đăng lúc %(when)s"
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr "Dịch"
+
+#: app/templates/base.html:4
+#, fuzzy
+msgid "Welcome to Microblog"
+msgstr "Chào mừng bạn đến với Myblog"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "Hồ sơ cá nhân"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Xin chào, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:41
+msgid "Newer posts"
+msgstr "Bài mới"
+
+#: app/templates/index.html:22 app/templates/user.html:46
+msgid "Older posts"
+msgstr "Bài cũ"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "Thành viên mới?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "Click để đăng ký"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Quên mật mã?"
+
+#: app/templates/login.html:15
+#, fuzzy
+msgid "Click to Reset It"
+msgstr "Click để phục hồi"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Phục hồi mật mã"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Thành viên"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Lần xuất hiện cuối cùng"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d người theo dõi"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "Đang theo dõi %(count)d"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Soạn thảo hồ sơ cá nhân"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Theo dõi"
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr "Ngừng theo dõi"
+
